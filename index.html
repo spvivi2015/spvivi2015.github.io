@@ -1,0 +1,120 @@
+html
+複製程式碼
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人簡介網頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('background.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .social {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .social a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .profile {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            display: flex;
+        }
+        .profile img {
+            margin-right: 20px;
+        }
+        .profile div {
+            max-width: 70%;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>我的個人網頁</h1>
+            <ul>
+                <li><a href="#contact">聯繫我</a></li>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#home">首頁</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <h1>歡迎來到我的個人網頁</h1>
+            <p>這是一個展示我的個人資訊、社交媒體連結、個人照片和活動紀錄的地方。</p>
+        </div>
+    </section>
+    <section class="social">
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://instagram.com">Instagram</a>
+    </section>
+    <section class="profile">
+        <img src="profile.jpg" alt="個人照片" width="200" height="200">
+        <div>
+            <h2>關於我</h2>
+            <p>這裡是我的個人介紹。你可以在這裡添加更多關於你自己的資訊。</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 我的個人網頁. 版權所有.</p>
+    </footer>
+</body>
+</html>
